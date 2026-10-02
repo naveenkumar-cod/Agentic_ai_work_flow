@@ -6,6 +6,7 @@ import WorkflowCanvas from '../../components/WorkflowCanvas';
 import NodePalette from '../../components/NodePalette';
 import NodeConfigPanel from '../../components/NodeConfigPanel';
 import { useWorkflowStore } from '../../store/workflowStore';
+import { useAuthStore } from '../../store/authStore';
 import api from '../../services/api';
 import {
   Save,
