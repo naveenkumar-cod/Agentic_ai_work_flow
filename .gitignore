@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Next.js build output
+.next/
+client/.next/
+out/
+build/
+dist/
+
+# Environment Variables & Secrets (Keep your credentials private!)
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# MongoDB Memory Server cache / data
+.mongodb/
+mongodb-data/
